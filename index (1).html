@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- head
+
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the CSS file (used to style the webpage)
+        
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+    
+        <title>A Blast in Brazil</title>
+        <link rel="icon" href="./img/icon.jpeg">
+        <link rel = "stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+    
+        <!-- navbar
+
+Purpose:
+- Navigation bar that allows users to jump to different sections of the webpage
+- Also holds buttons for user settings (dark mode, reduce motion)
+
+When To Modify:
+- [ ] Project 4 (REQUIRED FEATURE)
+- [ ] Project 5 (REQUIRED FEATURE) 
+- [ ] Project 8 (STRETCH FEATURE) 
+- [ ] Any time between / after
+-->
+<div class="navbar">
+    <ul>
+    <li><a href="#header">Home</a></li> 
+    <li><a href="#">About</a></li>
+    <li><a href="https://www.google.com/travel/flights?sca_esv=73a6d3bdeda9064e&rlz=1C1GCEU_en&output=search&q=flights%20to%20brazil&source=lnms&mode_promoted=true&impression_in_search=true&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZg_6SRHWjSof7Vw6bVkwVob1znb05TYXTXyGpz0lQ8GweBA5kFaJyuTAf05QMLr6avYfrfRMEd8iGvV9U7aw4JKbTM3yIe6hQ7MeAmGC8ZHlU485qJugnxkgqBqykn4Ogb5S3mwc1J72iBW_WzITB16smKI46tKtiKWsILroCL9E4EFM4Jn4T164j1G1J8LNiHlEBuQ&ved=1t%3A200715&ictx=111&tfs=CBwQARocagwIAhIIL20vMGYycnFyDAgEEggvbS8wMTVmchocagwIBBIIL20vMDE1ZnJyDAgCEggvbS8wZjJycUABSAFwAYIBCwj___________8BmAEB&tfu=KgIIBQ">Flight Tracker</a></li>
+    <li><a href="#links">Helpful Links</a></li>
+    <li><button id = "theme-button">Dark Mode</button></li>
+    </ul>
+</div>
+
+
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+        <div class="header-container" id="header">
+        <img id="header-img" src="./img/icon.jpg">
+        <h1>A Blast in Brazil!</h1>
+        <h2 class = "green">Cheers to being young and traveling</h2>
+        <a href="https://www.icloud.com/sharedalbum/#B1zGrq0zwqfjI7h
+"><button type="button" class="header-button"> Shared Album </button></a>
+        <a href ="./costs.pdf"><button type="button" class="header-button">Financial Info</button></a>
+        </div>
+        
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2>About the Event</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yeukgKerfqM?si=B1mstwIVvFg_ZeZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>
+            Brazil is a beautiful country which offers a plethora of exciting and unique activities. 
+            All of it's offerings make Brazil the ultimate trip destination for six college students,
+            specifically, Rio de Janeiro. 
+            Brazil Trip 2025 will be an exciting and majestic adventure for the friend group AKA squad.
+        </p>
+
+        <h3>What to Expect</h3>
+        <h4>Let's Have the Time of Our Lives - Pitbull</h4>
+        <ul>
+            <li> <b>New experiences:</b> <i>We will climb lanmarks we have never seen before, and go para gliding in the beautiful coasts of Brazil.</i></li>
+            <li> <b>Experience the culture:</b> <i>We will visit local small businesses specializing in Braziolian foods and Brazilian goods.</i></li>
+            <li> <b>Explore the nature:</b> <i>We will take a guided boat tour through the Amazon forest and learn about it's biodiversity.</i></li>
+        </ul>
+
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2>Event Schedule</h2>
+
+        <img alt="Picture of Brazil flag." src="./img/flag.jpg"/>
+        <h3>Exploring Brazil</h3>
+        <p>In a casual setting, the group will walk around the city center in Rio. 
+            There will be an opportunity to visit stores, restaurants, and more. 
+        </p>
+            
+        <img alt="Picture of Christ the Redeemer in Rio de Janeiro" src="./img/jesus.jpg"/>
+        <h3>Christ the Redeemer </h3>
+        <p>The group will take a guided tour to the iconic Art Deco statue of Jesus located in Rio.</p>
+
+        <img alt="The Beach" src="./img/beach.jpg" />
+        <h3>Beach</h3>
+        <p>A tried and true squad activity, BEACH! Obvi, we will tan by the beautiful beaches of Brazil, perhaps it'll 
+            even be not that windy and we won't have to worry about any beach balls flying away :). 
+        </p>
+
+        <!-- rsvp
+
+Purpose:
+- Section for users to sign up for the event
+- Contains a form for users to input their information, 
+and a list of other users who have signed up
+
+When To Modify:
+- [ ] Project 6 (REQUIRED FEATURE) 
+- [ ] Project 6 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+<div id="rsvp">
+    <h2 id="RSVP-header">RSVP</h2>
+    <div class="rsvp-container">
+        <div class="rsvp-para">
+            For the smoothest trip, we need a proper headcount of everyone.
+            The vacation will include some restaurant meals and excursions and we 
+            need to know who is coming in order to accurately make reservations.
+            If you would like to know more about the logistics
+            please check out the "Financial info" button at the top of the page. 
+            Additionally once you RSVP you gain access to the shared album labeled
+            "Squad Brazil Trip" (the button at the top of the page will take you to the album
+            but you will need a password to acces the photos and add photos)! 
+            Rsvp to secure your place now!
+        </div>
+        <div class="rsvp-participants">
+            <p>🎟️ Kathy from Texas has RSVP'd!</p>
+            <p>🎟️ Andy from the Phillipines has RSVP'd!</p>
+            <p>🎟️ Zuz from Poland has RSVP'd!</p>
+        </div>
+    </div>
+
+    <!--- Sign RSVP Form --->
+    <div class="form-container">
+        <form id="rsvp-form" title="rsvp-form">
+            <!-- form inputs go here -->
+             <label>Name: </label>
+             <input type = "text" id ="name">
+             <label>Country:</label>
+             <input type = "text" id = "state">
+             <label>Email:</label>
+             <input type = "text" id = "email">
+        </form>
+        <!-- Submit button -->
+        <button id="rsvp-button">Submit RSVP</button>
+    </div>      
+</div>
+        <!-- success modal
+
+Purpose:
+- Modal that appears when a user successfully signs up for the event
+- Contains a personalized message and image
+
+When To Modify:
+- [ ] Project 9 (REQUIRED FEATURE)
+- [ ] Project 9 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+
+<div id="success-modal" class="modal">
+    <div class="modal-container">
+        <div id="modal-item">
+            <h2>Congrats!</h2>
+            <p id = modal-text>You have successfully signed up for Squad Brazil Trip!
+                 Keep an eye out for any emails regarding payment and more detailed itineraries. 
+                Let's make some memories :).</p>
+        </div>
+        <div id="modal-image">
+            <img src="./img/plane.png">
+        </div>
+    </div>
+</div>
+ 
+
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="links">Links</h2>
+
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <a class="block" href="https://www.travelsphere.co.uk/inspirations/south-america/top-5-reasons-to-visit-rio-de-janeiro/">
+            <article>
+                <h3>Why Visit Rio?</h3>
+                <p>Discover some of the incredible reasons you should visit Brazil!</p>
+            </article>
+        </a>
+        <a class="block" href="https://owlovertheworld.com/where-to-eat-in-rio-de-janeiro/">
+            <article>
+                <h3>Where to eat.</h3>
+                <p>Read about a foodie's guide on what to eat in Rio.
+                </p>
+            </article>
+        </a>
+            
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+         <div class = "footer">
+            <a href="www.google.com"> Contact us </a>
+            <a href="www.google.com"> Request an excursion </a>
+         </div>
+        <script src="index.js"></script>
+
+    </body>
+</html>
